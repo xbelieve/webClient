@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CHttpAuth</class>
+ <widget class="QWidget" name="CHttpAuth">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>436</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CHttpAuth</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>IP</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEdit_ip"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Port</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineEdit_port"/>
+   </item>
+   <item row="9" column="0" colspan="2">
+    <widget class="QTextEdit" name="textEdit_request"/>
+   </item>
+   <item row="10" column="0" colspan="2">
+    <widget class="QTextEdit" name="textEdit_response"/>
+   </item>
+   <item row="11" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>sendRequest</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="lineEdit_username"/>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="lineEdit_pass"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_username">
+     <property name="text">
+      <string>username</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_pass">
+     <property name="text">
+      <string>password</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLineEdit" name="lineEdit_url"/>
+   </item>
+   <item row="6" column="1">
+    <widget class="QComboBox" name="comboBox_method">
+     <item>
+      <property name="text">
+       <string>GET</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>POST</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
